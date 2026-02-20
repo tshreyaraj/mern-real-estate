@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev":"nodemon back-end/index.js",
-    "start":"node back-end/index.js"
+    "dev": "nodemon back-end/index.js",
+    "start": "node back-end/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/tshreyaraj/mern-real-estate#readme",
   "dependencies": {
+    "dotenv": "^17.3.1",
     "express": "^5.2.1",
+    "mongoose": "^9.2.1",
     "nodemon": "^3.1.13"
   }
 }
